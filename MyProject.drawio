@@ -1,9 +1,66 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="Page-1" id="0qxZ1uzZektFwQ4zzwnJ">
-    <mxGraphModel>
+    <mxGraphModel dx="954" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="BE6oZ7qrVlFyyqq-hMVv-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="BE6oZ7qrVlFyyqq-hMVv-2" target="BE6oZ7qrVlFyyqq-hMVv-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BE6oZ7qrVlFyyqq-hMVv-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="BE6oZ7qrVlFyyqq-hMVv-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BE6oZ7qrVlFyyqq-hMVv-2" value="Github Repo&lt;div&gt;that contains Terraform code&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="40" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BE6oZ7qrVlFyyqq-hMVv-4" value="IAC code to build a Repository in GitHub" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BE6oZ7qrVlFyyqq-hMVv-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BE6oZ7qrVlFyyqq-hMVv-6" target="BE6oZ7qrVlFyyqq-hMVv-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BE6oZ7qrVlFyyqq-hMVv-6" value="Client Clone the Repo&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="160" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BE6oZ7qrVlFyyqq-hMVv-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BE6oZ7qrVlFyyqq-hMVv-8" target="BE6oZ7qrVlFyyqq-hMVv-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BE6oZ7qrVlFyyqq-hMVv-8" value="Feature Branch Creation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BE6oZ7qrVlFyyqq-hMVv-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BE6oZ7qrVlFyyqq-hMVv-9" target="BE6oZ7qrVlFyyqq-hMVv-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BE6oZ7qrVlFyyqq-hMVv-9" value="&lt;div&gt;Variables File Modification&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BE6oZ7qrVlFyyqq-hMVv-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BE6oZ7qrVlFyyqq-hMVv-11" target="BE6oZ7qrVlFyyqq-hMVv-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BE6oZ7qrVlFyyqq-hMVv-11" value="Pull Request Creation" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BE6oZ7qrVlFyyqq-hMVv-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BE6oZ7qrVlFyyqq-hMVv-13" target="BE6oZ7qrVlFyyqq-hMVv-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BE6oZ7qrVlFyyqq-hMVv-13" value="PR Review and Approval" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BE6oZ7qrVlFyyqq-hMVv-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BE6oZ7qrVlFyyqq-hMVv-15" target="BE6oZ7qrVlFyyqq-hMVv-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BE6oZ7qrVlFyyqq-hMVv-15" value="GitHub Actions Trigger" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BE6oZ7qrVlFyyqq-hMVv-17" value="New Repository Creation" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
